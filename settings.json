@@ -1,0 +1,34 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    // Added
+    "emmet.includeLanguages": {
+       "javascript": "javascriptreact"
+    },
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    // Added
+
+    "window.zoomLevel": 0,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+
+    // Added
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/web/node_modules": true,
+      "**/web/build": true, // will change frequently by build command
+      "**/admin/node_modules": true
+  }
+  // Added
+}
